@@ -1,0 +1,92 @@
+/*
+filename: lab05.css
+author: Boon Xiao Teng
+created: 09/04/2026
+last modified: 11/04/2026
+description: lab04.html styling
+*/
+
+* {
+    max-width: 990px;
+    font-family: calibri, sans-serif;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+h1 {
+    color: purple;
+    white-space: nowrap;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2 {
+    color: rgb(0, 128, 128);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.heading {
+    color: red
+}
+
+.paragraph {
+    color: black;
+}
+
+aside,
+footer {
+    font-style: italic;
+}
+
+h1, h2, h3 {
+    font-family: arial, sans-serif;
+}
+
+caption {
+    text-align: center;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+table tr:last-child td {
+    text-align: center
+}
+
+.special {
+    color: darkorange;
+    font-weight: bold;
+}
+
+.row {
+    text-align: right;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.2em 0.6em;
+    border: 2px solid #ccc;
+}
+
+
+ol ul {
+    list-style-type: square;
+}
+
+aside:hover {
+    display: none;
+}
+
+nav a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+}
+

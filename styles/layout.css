@@ -1,0 +1,126 @@
+h1 {
+  border: 1px solid darkgray;
+  background-color: lightgrey;
+  text-align: center;
+  padding: 0.5em;
+  margin: 0.5em
+}
+
+aside:hover {
+  display: block;
+}
+
+.menu {
+  display: inline-block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+aside {
+  border: 4px inset purple;
+  border-radius: 14px;
+  margin: 1em;
+  padding: 1em;
+  background: url("images/fade.jpg") repeat-x top left;
+  background-color: whitesmoke;
+  width: 30%;
+  float: right;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+footer {
+  border-top: 4px double black;
+  clear: both;
+}
+
+dl {
+  border: 3px double #ccc;
+  padding: 0.5em;
+}
+
+dt {
+  clear: left;
+  float: left;
+  width: 40%;
+  text-align: right;
+  font-weight: bold;
+  color: green;
+}
+
+dt::after {
+  content: " :";
+}
+
+dd {
+  width: 55%;
+  margin-left: 42%;
+}
+
+#L {
+  float: left;
+}
+
+#T {
+  float: right;
+}
+
+#I {
+  float: right;
+}
+
+table {
+  margin: auto;
+}
+
+#H {
+  clear: both;
+  float: left
+}
+
+figure {
+  border: 2px solid #ccc;
+}
+
+#L,
+#T,
+#H,
+#I {
+  width: 50%;
+  text-align: center;
+}
+
+
+ol,
+ul,
+dl {
+  text-align: left;
+}
+
+article {
+  min-width: 30em;
+  border: 3px solid black;
+}
+
+footer {
+  clear: both;
+}
+
+footer p {
+  display: inline-block;
+  width: 33%;
+}
+
+footer p:first-child {
+  float: left;
+}
+
+footer p:nth-child(2) {
+  text-align: center;
+}
+
+footer p:last-child {
+  float: right;
+  text-align: right;
+}
