@@ -6,6 +6,7 @@ header {
   margin: 0.5em;
 }
 
+
 aside:hover {
   display: block;
 }
@@ -101,7 +102,8 @@ dl {
 article {
   min-width: 30em;
   border: 3px solid black;
-  padding: 15px; 
+  padding: 0.5em ;
+  margin: 0.5em;
 }
 
 footer {
